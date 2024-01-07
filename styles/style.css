@@ -108,7 +108,7 @@ font-family: 'Inter', sans-serif;
 }
 
 .btn {
-    color: #fff;
+  color: #fff;
   display: inline-flex;
   padding: 16px 32px;
   justify-content: center;
@@ -122,14 +122,46 @@ font-family: 'Inter', sans-serif;
     #b2103f,
     #eb1238
   );
-  color: #FFF;
-text-align: center;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+}
+
+.portfolio h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.portfolio h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.portfolio p{
+    color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
 font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-border-radius: 10px;
-border: none;
+
+font-weight: 400;
+line-height: 32px;
+margin-bottom: 48px;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 24px;
 }
