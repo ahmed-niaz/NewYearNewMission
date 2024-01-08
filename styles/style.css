@@ -21,10 +21,13 @@ font-family: 'Inter', sans-serif;
   max-width: 1320px;
   margin: 0 auto;
 }
-
+header{
+  height: 100%;
+}
 .banner {
   background-image: url("../assets/images/BannerImage.png");
   border-radius: 16px;
+  
 }
 
 .banner-text,
@@ -184,10 +187,12 @@ height: 100%;
   );
   border-radius: 16px;
   margin-bottom: 120px;
+  height: 100%;
 }
 
 .subscribe img {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
+  margin: 80px 0 40px 0;
 }
 
 .subscribe h3 {
@@ -213,20 +218,41 @@ height: 100%;
   width: 50%;
   margin-bottom: 48px;
 }
-
-.subscribe-btn input {
-  width: 438px;
-  height: 72px;
-  border-radius: 50px 0px 0px 50px;
-  margin: 25px 0px 25px 30px;
+.subscribe-btn input{
+  display: inline-block;
+  font-size: 18px;
+  box-sizing: border-box;
+  margin-bottom: 120px;
 }
 
-.subscribe-btn button {
+input[type="email"]{
+  width: 438px;
+  height: 72px;
+  border: none;
+  outline: none;
+  padding: 0 30px;
+  border-radius: 50px 0 0 50px;
+}
+input[type="submit"]{
+  position: relative;
+  left: -5px;
   width: 210px;
   height: 72px;
-  border-radius: 0px 50px 50px 0px;
-  background: #f00;
   border: none;
+  outline: none;
+  padding: 0 30px;
+  border-radius: 0 50px  50px 0;
+  cursor: pointer;
+  color: #fff;
+  background-image: linear-gradient(
+    to right top,
+    #0b090a,
+    #3f1728,
+    #771839,
+    #b2103f,
+    #eb1238
+  );
+
 }
 footer {
   background: #070211;
@@ -240,7 +266,7 @@ hr {
   max-width: 1320px;
   margin: 0 auto;
 }
-.part-one {
+.footer-top {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
@@ -270,7 +296,7 @@ hr {
   text-decoration: none;
 }
 
-.part-two {
+.footer-bottom {
   color: #fff;
   font-family: Inter;
   font-size: 24px;
