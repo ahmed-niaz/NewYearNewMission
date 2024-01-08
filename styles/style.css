@@ -179,6 +179,8 @@ header {
   width: 65%;
 }
 .sales-img {
+  width: 100%;
+  display: flex;
   margin-top: 120px;
 }
 .holiday-sales .sales-gift {
@@ -189,8 +191,11 @@ header {
 
 .holiday-sales .sales-cart {
   margin-bottom: -5px;
+  margin-left: 95px;
 }
-
+.red-footer{
+  width: 100%;
+}
 .portfolio h2,
 .grid-item-left h2 {
   color: #af0606;
